@@ -1,0 +1,8 @@
+runtime: go
+api_version: go1.8
+service: gae-blueprint
+
+# TODO: for production settings
+handlers:
+- url: /.*
+  script: _go_app
